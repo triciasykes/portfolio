@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="portfolio.css" >
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="portfolio.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel = "stylesheet"
+        href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+
     <title>Tricia Sykes</title>
   </head>
   <body>
@@ -16,78 +18,103 @@
     <div class="hero-image">
       <div class="hero-text" >
         <headline>Tricia Sykes</headline>
-        <h1>Full Stack Web Developer</h1>
-        <h2> JavaScript |  React  |  Ruby on Rails  |  SQL</h2>
+        <h2>Full Stack Web Developer</h2>
+        <h4> JavaScript |  React  |  Ruby on Rails  |  SQL</h4>
+        <div>
+          <h4 style="color: white">619.993.1863</h4>
+        </div>
         <div class="icons">
-          <a href='mailto:tlsykes98@gmail.com'>  <i class="material-icons" style="font-size:60px; color:white">email</i></a>
-          <a href='tel:+1-619-993-1863>'<i class="material-icons" style="font-size:60px; color:white">phone</i></a>
-          <a href='https://www.linkedin.com/in/tricia-sykes98/'><img src='assets/linkedin.png'></a>
-          <a href='https://github.com/triciasykes'><img src="assets/github.png"></a>
+          <a href='mailto:tlsykes98@gmail.com'>  <i class="material-icons" style="font-size:60px; color:white">email</i>
+          <a href='https://www.linkedin.com/in/tricia-sykes98/'><img c src='assets/linkedin.png'></a>
+          <a href='https://github.com/triciasykes'><img  src="assets/github.png"></a>
         </div>
       </div>
     </div>
 
     <div class="parallax">
       <div class="projects">
-        <h1>PROJECTS</h1>
+        <h3>PROJECTS</h3>
       </div>
 
-      <div id="main">
-        <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="assets/numpic.png" alt="snapshot of Numinous app" style="width:300px;height:200px;">
-          </div>
-            <div  class="flip-card-back"></a>
-              <a href='https://numinous-frontend.herokuapp.com' target='_blank'>
-              <h1>Numinous Travel Wishlist</h1>
-              <h3>React/Rails/AWS</h3>
-              </a>
+      <div class="row center-cols center-align">
+        <div class="col m4">
+          <div class="card sticky-action">
+            <div class="card-image">
+              <img class="activator" src="assets/numpic.png">
+              <a class="btn red btn-floating halfway-fab activator">+</a>
             </div>
+            <div class="card-content">
+              <h4> Numinous Travel Wishlist: React/Rails/AWS</h4>
+            </div>
+            <div class="card-action">
+              <a href="https://numinous-frontend.herokuapp.com" target="about_blank">NUMINOUS WEBSITE</a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Numinous<i class="material-icons right">close</i></span>
+              <p>Create a travel wishlist from various off-the-beaten path locations. Full stack app created with React & Rails, and connects with AWS for storage and GoogleMaps API for location mapping.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col m4">
+          <div class="card sticky-action">
+            <div class="card-image">
+              <img src="assets/movie.png">
+              <a class="btn red btn-floating halfway-fab activator">+</a>
+            </div>
+            <div class="card-content">
+              <h4> Let's Talk Movies: React/Redux/Firebase</h4>
+            </div>
+            <div class="card-action">
+              <a href="https://mymovieboard.herokuapp.com" target="about_blank">LET'S TALK MOVIES WEBSITE</a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Let's Talk Movies<i class="right">X</i></span>
+              <p> Comment on various movies or add your own favorites! Created with React/Redux/Firebase</p>
+            </div>
+          </div>
+        </div>
+
+    <div class="col m4">
+      <div class="card sticky-action">
+        <div class="card-image">
+          <img src="assets/blackjack.png">
+          <a class="btn red btn-floating halfway-fab activator">+</a>
+        </div>
+        <div class="card-content">
+          <h4> BlackJack: JavaScript/HTML/CSS</h4>
+        </div>
+        <div class="card-action">
+          <a href="https://triciasykes.github.io/" target="about_blank">PLAY BLACKJACK</a>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title">BlackJack<i class="right">X</span>
+            <p> Compete against the computerized dealer in this card classic. Created with JavaScript/HTML/CSS</p>
+          </div>
         </div>
       </div>
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="assets/movie.png" alt="various movie posters"style="width:300px;height:200px;">
+      <div class="col m4">
+        <div class="card sticky-action">
+          <div class="card-image">
+            <img class="activator" src="assets/pig.png">
+            <a class="btn red btn-floating halfway-fab activator">+</a>
           </div>
-          <div class="flip-card-back">
-            <a href="https://mymovieboard.herokuapp.com/" target="_blank">
-            <h1>MovieBoard</h1>
-            <h3>React/Redux/Firebase</h3></a>
+          <div class="card-content">
+            <h4> Pig Latin Translator: JavaScript/HTML/CSS</h4>
           </div>
-        </div>
-      </div>
-
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="assets/blackjack.png" alt="game of blackjack" style="width:300px;height:200px;">
+          <div class="card-action">
+            <a href="" target="about_blank">TRANSLATE</a>
           </div>
-          <div class="flip-card-back">
-            <a href='https://triciasykes.github.io/' target='_blank'>
-              <h1>BlackJack</h1>
-              <h3>JavaScript</h3>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <img src="assets/pig.png" alt="pig latin translator" style="width:300px;height:200px;">
-          </div>
-          <div class="flip-card-back">
-            <h1>PigLatin Translator</h1>
-            <h3>JavaScript</h3>
+          <div class="card-reveal">
+            <span class="card-title">Pig Latin Translator<i class="right">X</span>
+              <p> Enter an English word or phrase and have it translated to Pig Latin. Created with JavaScript/HTML/CSS</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="about">
+  <div class="about">
       <h1>About Me...</h1><br>
       <section class="me">
         <div>
@@ -98,11 +125,10 @@
         </div>
       </section>
     </div>
-  </div>
 
+    <footer> copyright 2018 Sykotic Productions</footer>
 
-
-
-<footer> copyright 2018 Sykotic Productions</footer>
+   <script type="text/javascript" src="materialize.min.js"></script>
   </body>
+
 </html>
