@@ -79,7 +79,7 @@ a:link {
   color: rgb(65, 105, 255);
   background-color: white;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 40px;
   border-radius: 4px;
 }
 .me {
@@ -95,6 +95,10 @@ a:link {
   height:150px;
   padding-right: 50px;
 
+}
+
+.resume {
+  text-align: center;
 }
 
 .projects {
