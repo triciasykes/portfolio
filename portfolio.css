@@ -50,9 +50,6 @@ headline {
   align-items: center;
 }
 
-
-
-
 /* -----cards ------*/
 .center-cols > .col {
   float:none;
@@ -66,7 +63,7 @@ a:link {
 }
 
 .card-image{
-    height: 400px;
+    height: 300px;
     overflow: visible;
 }
 
@@ -76,10 +73,8 @@ a:link {
   align-items: center;
 
 }
-.card {
-  width:
-}
 
+/*-------- about ------- */
 .about {
   color: rgb(65, 105, 255);
   background-color: white;
@@ -90,10 +85,16 @@ a:link {
 .me {
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   padding-right: 50px;
-  padding-left: 15px;
+
   margin-right: 20px;
+}
+.tspic {
+  width:175px;
+  height:150px;
+  padding-right: 50px;
+
 }
 
 .projects {
