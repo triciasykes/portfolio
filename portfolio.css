@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    background-image: linear-gradient(rgba(65, 105, 255, 0.80), rgba(65, 105, 255, 0.80)),
+    background-image: linear-gradient(rgba(135,206,250, 0.90), rgba(135,206,250, 0.90)),
     url("assets/screen.png");
     font-family: "Ubuntu", sans-serif;
 
@@ -9,7 +9,7 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: linear-gradient(rgba(65, 105, 255, 0.80), rgba(65, 105, 255, 0.80)),
+  background-image: linear-gradient(rgba(135,206,250, 0.80), rgba(135,206,250, 0.80)),
   url("assets/screen.png");
 
   /* Full height */
@@ -63,7 +63,7 @@ a:link {
 }
 
 .card-image{
-    height: 300px;
+    height: 250px;
     overflow: visible;
 }
 
@@ -76,10 +76,10 @@ a:link {
 
 /*-------- about ------- */
 .about {
-  color: rgb(65, 105, 255);
+  color: black;
   background-color: white;
   padding: 15px;
-  margin-top: 40px;
+  margin-top: 10px;
   border-radius: 4px;
 }
 .me {
@@ -92,7 +92,6 @@ a:link {
 }
 .tspic {
   width:175px;
-  height:150px;
   padding-right: 50px;
 
 }
@@ -105,7 +104,7 @@ a:link {
   font-size: .5em;
   background-color: white;
   text-align: center;
-  color: rgb(65, 105, 255);
+  color: black;
   padding: 5px;
   margin-bottom: 15px;
   border-radius: 4px;
