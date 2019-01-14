@@ -1,22 +1,23 @@
 body, html {
     height: 100%;
-    background-image: linear-gradient(rgba(135,206,250, 0.90), rgba(135,206,250, 0.90)),
+    background-image: linear-gradient(rgba(70, 130, 180, 0.90), rgba(70, 130, 180, 0.90)),
     url("assets/screen.png");
     font-family: "Ubuntu", sans-serif;
+
 
 }
 
 
 .parallax {
   /* The image used */
-  background-image: linear-gradient(rgba(135,206,250, 0.80), rgba(135,206,250, 0.80)),
+  background-image: linear-gradient(rgba(112,128,144, 0.80), rgba(112,128,144, 0.80)),
   url("assets/screen.png");
 
   /* Full height */
   height: 100%;
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

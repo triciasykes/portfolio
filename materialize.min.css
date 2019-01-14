@@ -4640,7 +4640,7 @@ small {
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  padding: 5px;
+  padding: 15px;
   margin: .5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff
@@ -4648,13 +4648,14 @@ small {
 
 .card {
   position: relative;
-  margin: .5rem 0 1rem 0;
+  margin-top: 2rem;
   background-color: #fff;
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 2px
+  border-radius: 2px;
+  margin-bottom: 3.5rem;
 }
 
 .card .card-title {
