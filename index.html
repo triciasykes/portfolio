@@ -2,40 +2,38 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="portfolio.css" >
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel = "stylesheet"
-        href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" type="text/css"  href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href = "vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,300i,400" rel="stylesheet">
 
     <title>Tricia Sykes</title>
   </head>
   <body>
-
-
-    <!-- Container -->
-
-    <div class="hero-image">
-      <div class="hero-text" >
-        <headline>Tricia Sykes</headline>
-        <h3>Full Stack Web Developer</h3>
-        <h4> JavaScript |  React |  Ruby on Rails  |  SQL</h4>
+    <header>
+      <nav>
+        <div class="row">
+          <ul class="main-nav">
+            <li><a href='#projects'> projects</a></li>
+            <li><a href='#contact'>contact</a></li>
+            <li><a href='#about'>about</a><li>
+          </ul>
         <div>
-          <h4 style="color: white">619.993.1863</h4>
+      </nav>
+      <div class="hero-text-box">
+        <h1>Tricia Sykes</h1>
+        <h2> Web Developer</h2>
+        <h4> HTML5 | CSS3 | JavaScript | React | Ruby on Rails | SQL</h4>
         </div>
-        <div class="icons">
-          <a href='mailto:tlsykes98@gmail.com'>  <i class="material-icons" style="font-size:60px; color:white">email</i>
-          <a href='https://www.linkedin.com/in/tricia-sykes98/'><img c src='assets/linkedin.png'></a>
-          <a href='https://github.com/triciasykes'><img  src="assets/github.png"></a>
-        </div>
-      </div>
-    </div>
+    </header>
 
-    <div class="parallax">
-      <div class="projects">
-        <h3>PROJECTS</h3>
+    <section id="projects"class="section-projects">
+      <div class="row">
+        <h3>Projects</h3>
       </div>
 
+<<<<<<< HEAD
       <div class="row center-cols center-align">
         <div class="col m4">
           <div class="card sticky-action">
@@ -114,51 +112,81 @@
             <p> This application is all about functionality over design.  One of my first complete Javascript programs. I enjoyed breaking down the complexity of coding a "simple game" into the smaller parts. It was definitely a good lesson in thinking through the whole project before starting.
           </div>
         </div>
+=======
+      <ul class="projects-showcase">
+        <li>
+          <figure class="project-photo">
+            <a href="https://numinous-frontend.herokuapp.com" target="about_blank"> <img src="assets/numpic.png" alt="numinous travel wishlist">
+            <figcaption>Numinous Travel Wishlist &mdash; React/Rails/.jwt/AWS
+              </figcaption></a>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-photo">
+            <a href="https://infallible-wiles-6748ca.netlify.com" target="about_blank"><img src="assets/budget.png" alt="budget calculator">
+            <figcaption>Budget Calculator &mdash; JavaScript/HTML/CSS</figcaption></a>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-photo">
+            <a href="https://mymovieboard.netlify.com" target="about_blank"><img src="assets/movie.png" alt="movie discussion board">
+            <figcaption>Let's Talk Movies &mdash; React/Redux</figcaption></a>
+          </figure>
+        </li>
+        <li>
+          <figure class="project-photo">
+            <a href="https://triciasykes.github.io/" target="about_blank"><img src="assets/blackjack.png" alt="blackjack game">
+            <figcaption>BlackJack &mdash; JavaScript/HTML/CSS</figcaption></a>
+          </figure>
+        </li>
+      </ul>
+      <div style="clear: both"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="row">
+        <h3> Contact </h3>
+>>>>>>> f98a82dcb10548cde8c5739fe1f7b74ab3f56776
       </div>
-
-      <div class="col m4">
-        <div class="card sticky-action">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="assets/pig.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i><h4> Pig Latin Translator: JavaScript/HTML/CSS</h4></span>
-          </div>
-          <div class="card-action">
-            <a href="https://peaceful-bassi-1e812d.netlify.com" target="about_blank">TRANSLATE</a>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title">Pig Latin Translator<i class="right">X</span>
-              <p> Enter an English word or phrase and have it translated to Pig Latin. Created with JavaScript/HTML/CSS</p>
-              <p>My first class project from bootcamp. I worked on a team of three to develop this translator. Again, it's not about the UI, but rather the functionality.  A great experience. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="about">
-      <h4>About Me...</h4><br>
-      <section class="me">
-        <div>
-          <img  class='tspic' src='assets/ts.jpg' >
-        </div>
-        <div>
-          <p>As a lifelong learner, I found coding later in my career. I loved it instantly and enrolled in LEARN Academy's web development intensive 16 week program. I have a background in Psychology, Marketing, and Health & Wellness.  My passion for helping others has helped me succeed at each stage of my career. I am excied to use my my skills to produce positive change in the world. </p>
-          <p>When not coding, you will find me running, reading, cheering on my favorite sports teams (Go Niners!), or just enjoying the beautiful city of San Diego.</p>
-        </div>
+      <div>
+        <ul class="contact-icons">
+          <li>
+            <a href="tel:+16199931863"><i class="ion-ios-telephone icon-big"></i>
+            <h5>619.993.1863</h5>
+          </li>
+          <li>
+            <a href="mailto:tlsykes98@gmail.com"><i class="ion-ios-email icon-big"></i>
+              <h5>tlsykes98@gmail.com</h5></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/tricia-sykes98/"><i class="ion-social-linkedin icon-big"></i>
+              <h5>tricia-sykes98</h5></a>
+          </li>
+          <li>
+            <a href="https://github.com/triciasykes?tab=repositories"><i class="ion-social-github icon-big"></i>
+              <h5>triciasykes</h5></a>
+          </li>
+          <li>
+            <a href="assets/TSresume.pdf"> <i class="ion-document-text icon-big"></i>
+              <h5> Resume </h5></a>
+          </li>
+        </ul>
+          <div style="clear: both"></div>
       </section>
-      <div class='resume'>
-      <a href="assets/resume.pdf">
-        <i class="material-icons" style="font-size:60px">content_copy</i> Resume</a>
 
-      </div>
-    </div>
-
-    <footer> copyright 2018 Sykotic Productions</footer>
-
-   <script type="text/javascript" src="materialize.min.js"></script>
-  </body>
-
-</html>
+      <section id="about" class="about">
+        <div class="row">
+          <h3>About Me</h3>
+        </div>
+        <div class="col span 1 of 2 box">
+          <img src="assets/ts.jpg">
+        </div>
+        <divclass="col span 1 of 2 box">
+          <p>I am a web developer living in San Diego, California.  I earned my Bachelor of Arts degree in Psychology from UC San Diego and my background experience includes Marketing and Health & Wellness. I found a passion for coding quite by accident while pursuing another course of study. Shortly after this discovery, I enrolled in a four-month intensive full stack web development program at LEARN Academy. I love coding because it allows me to use both creativity and logic, as well as forcing me to look at challenges from multiple perspectives. Problem-solving drives me and I enjoy breaking things down to their smallest steps. Plus, coding is fun!</p><br>
+          <p>Born in Boston, I grew up in Phoenix and attended high school in the Los Angeles Area.  Aside from a three-year stint in San Francisco after college, I have lived in the beautiful city of San Diego. My biggest passions outside of coding are music, sports, and animals.  You can often find me dancing at a live show, running along the San Diego harbor, rooting for my favorite sports teams (Go Niners!), or at the local dog park.</p>
+        </div>
+        <div style="clear: both"></div>
+      </section>
+      <footer>© 2019 Tricia Sykes</footer>
+   </body>
+  </html>
